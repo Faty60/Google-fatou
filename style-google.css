@@ -1,0 +1,226 @@
+/*BODY*/
+body
+{
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/*MENU*/
+.conteneur
+{
+   
+    text-decoration: none;
+}
+.conteneur a
+{
+   
+    text-decoration: none;
+    color: black;
+}
+.cont-menu
+{
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Roboto', arial, sans-serif;
+    font-size: 13px;
+    margin-right: 20px;
+    
+ 
+    
+}
+.cont-gmail
+{
+   
+    padding: 4px;
+    margin-right: 10px;
+    
+}
+
+.cont-img
+{
+    
+    padding: 4px;
+    margin-right: 10px;
+    
+
+}
+
+.applis
+{
+   
+    padding: 4px;
+    margin-right: 10px;
+    
+}
+.applis img
+{
+    width: 20px;
+    height: 20px;
+      
+}
+.cmpt
+{
+   
+    padding: 4px;
+    margin-right: 10px;
+ 
+}
+
+.connexion
+{
+    border: none;
+    background-color: #5094ed;
+    color: white;
+    border-radius: 5px;
+    width: 130px;
+    height: 40px;
+    padding: 10px 15px 10px 15;
+    font-size: 16px;
+    
+}
+
+.connexion:hover
+{
+    box-shadow: 0px 1px 3px 3px rgba(0,0,0,.15);
+    background-color: #2b7de9;
+   
+}
+
+/*MAIN*/
+#main
+{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+
+    
+
+}
+
+.logo
+{
+   padding-right: 10px;
+   flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.search
+{
+    margin-top: 35px;
+    width: 550px;
+    height: 30px;
+    border-radius: 30px;
+    padding: 5px 40px 5px 40px;
+    font-size: 16px;
+    margin-bottom: 25px;
+    border: 1px solid rgb(220,220,220);
+    background-image: url(image/loupe.png);
+    background-repeat: no-repeat;
+    outline: 0;
+    
+    
+    
+}
+.search:hover
+{
+    box-shadow: 0px 1px 3px 1px rgba(0,0,0,.15)
+}
+
+.search2
+{
+
+    padding-right: 10px;
+   flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.search-button
+{
+    flex-direction: column;
+    display: flex;
+    
+}
+
+/*FOOTER */
+
+footer
+
+{
+    background-color: #f2f2f2;
+    margin-top: 270px;
+ 
+}
+.foot
+{
+    color: #6f6f6f;
+    font-size: 14px;
+        
+}
+.pays
+{
+    padding: 10px;
+}
+
+.navs
+{
+    
+    padding: 20px;
+    display: flex;
+    
+}
+
+.navs a
+{
+   
+    padding: 10px;
+    color: #6f6f6f;
+    font-size: 14px;
+    display: block;
+}
+
+.carbonne
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.lvs
+{
+    width: 15px;
+}
+.nav1 
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 
+    
+    
+}
+.nav2 
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: flex-start;
+    
+}
